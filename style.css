@@ -1,0 +1,103 @@
+
+html{
+    font-size: 30;
+}
+body{
+    background-color: grey;
+}
+h1{
+  
+    font-size: 1.5rem;
+    margin: 20px;
+    
+}
+h2{
+    font-size: 1rem;
+    text-align: center;
+}
+#count{
+    font-size: 5rem;
+    padding:0px;
+    margin: 0;
+   
+}
+
+ul{
+    list-style-type: none;
+    border: 1px solid black;
+    width: 100%;
+    
+    
+    background-color: grey;
+}
+li{
+    border: 1px solid black;
+    display: inline;
+    
+}
+
+.nav-btn{
+    min-width:30%;
+    width: 40%;
+    color:black;
+    
+}
+.btn-outline-primary{
+    background-color:rgb(111, 158, 196);
+}
+.container{
+    width:60%;
+    min-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#date{
+    opacity: 0.5;
+    color: black;
+}
+.contain{
+    width:60%;
+    min-width: 400px;
+    min-height: 80%;
+    background-image: url("img.jpg");
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 10px solid black;
+    border-radius:30px;
+ 
+}
+.column{
+    width: 50%;
+   
+    margin: auto;
+}
+button{
+    width: 100%;
+    margin: 10;
+    height: 10%;
+    border-radius:10px;
+    font-weight: bold;
+    color: white;
+    font-size: .7rem;
+}
+.increment:hover{
+    background-color: red;
+}
+.save:hover{
+    background-color: rgb(10, 209, 10);
+}
+.increment{
+    background-color: rgb(149, 10, 10);
+}
+.decrement{
+    background-color: rgb(34, 7, 109);
+}
+.decrement:hover{
+    background-color: rgb(78, 13, 228);
+}
+.reset{
+    background-color: green;
+    margin-bottom: 20px;
+}
